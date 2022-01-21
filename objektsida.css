@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background-color: rgb(red, green, blue);
+    color: white;
+    font-size: 30px;
+}

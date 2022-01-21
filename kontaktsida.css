@@ -1,0 +1,20 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background-color: rgb(red, green, blue);
+    color: white;
+    font-size: 30px;
+}
