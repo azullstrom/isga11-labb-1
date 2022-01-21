@@ -1,1 +1,11 @@
-/*HejHejaa/ bw*/
+header {
+    height: 50px;
+    background-color: gainsboro;
+}
+#center-line {
+    display: inline-block;
+    margin: auto;
+}
+nav {
+    text-align:center;
+}
