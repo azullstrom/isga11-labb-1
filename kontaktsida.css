@@ -14,7 +14,15 @@
 .header {
     padding: 60px;
     text-align: center;
-    background-color: rgb(red, green, blue);
+    background-color: rgba(112, 0, 0, 0.679);
     color: white;
+    text-emphasis-color: red;
     font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgtext {
+    padding: 60px;
+    font-size: 200px;rgba(15, 14, 14, 0.679);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
