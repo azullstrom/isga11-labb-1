@@ -7,28 +7,6 @@
     z-index: 5;
 }
 
-.image-blurred-edge-left {
-    position: absolute;
-    background-image: url("https://images.unsplash.com/photo-1585314062604-1a357de8b000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80");
-    width: 30%;
-    height: 4%;
-    left: 0;
-    bottom: 22%;
-    box-shadow: 0 0 30px 8px rgb(3, 3, 3) inset;
-    z-index: 3;
-}
-
-.image-blurred-edge-right {
-    position: absolute;
-    background-image: url("https://images.unsplash.com/photo-1585314062604-1a357de8b000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80");
-    width: 30%;
-    height: 4%;
-    right: 0;
-    bottom: 22%;
-    box-shadow: 0 0 30px 8px rgb(3, 3, 3) inset;
-    z-index: 3;
-}
-
 #leftpic {
     float: left;
     z-index: 1;
@@ -44,14 +22,16 @@
 #botleftpic {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 2%;
     z-index: 1;
+    filter: sepia();
 }
 #botrightpic {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 2%;
     z-index: 1;
+    filter: sepia()
 }
 
 #name, #email, #tele, #message {
@@ -112,7 +92,7 @@ a:active {
 
 .navbar {
     overflow: hidden;
-    background-image: url(https://images.unsplash.com/photo-1484734278752-212d8c88a568?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-image: url("https://images.unsplash.com/photo-1621731200046-45ebf10913bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80");
     background-size: 100%;
     position: fixed;
     top: 0; 
@@ -145,3 +125,5 @@ a:active {
 .canvas {
     background-color: rgb(27, 27, 27);
 }
+
+
