@@ -1,3 +1,114 @@
+#logo {
+    color: saddlebrown;
+    text-shadow: 1px 1px 1px wheat;
+    position: fixed;
+    top: 1%;
+    left: 3%;
+    z-index: 5;
+}
+
+#leftpic {
+    float: left;
+    z-index: 1;
+}
+#midpic {
+    float: center;
+    z-index: 1;
+}
+#rightpic {
+    float: right;
+    z-index: 1;
+}
+#botleftpic {
+    position: absolute;
+    left: 0;
+    bottom: 2%;
+    z-index: 1;
+    filter: sepia();
+}
+#botrightpic {
+    position: absolute;
+    right: 0;
+    bottom: 2%;
+    z-index: 1;
+    filter: sepia()
+}
+
+#name, #email, #tele, #message {
+    background-color: saddlebrown;
+    width: 50%;
+    opacity: 90%;
+}
+
+#send {
+    width: 30%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body, html {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(177, 121, 0);
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+    opacity: 90%;
+    box-shadow: 0 0 25px 4px rgb(255, 123, 0) inset;
+}
+
+li:last-child a {
+    margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+    background:saddlebrown;
+}
+
+a:hover {
+    background: wheat;
+}
+
+a:active {
+    background: black;
+    color: wheat;
+}
+
+.navbar {
+    overflow: hidden;
+    background-image: url("https://images.unsplash.com/photo-1621731200046-45ebf10913bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80");
+    background-size: 100%;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 4;
+  }
+
+.browntext {
+    color:saddlebrown;
+    text-shadow: 1px 1px 1px burlywood;
+}
+
+.blacktext {
+    color:black;
+}
+
 .container {
     position: relative;
     text-align: center;
@@ -7,14 +118,12 @@
 .centered {
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.header {
-    padding: 60px;
-    text-align: center;
-    background-color: rgb(red, green, blue);
-    color: white;
-    font-size: 30px;
+.canvas {
+    background-color: rgb(27, 27, 27);
 }
+
+
