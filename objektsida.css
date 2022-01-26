@@ -10,6 +10,10 @@ body {
     background-color:#627264;
     border-radius: 10px; /*rundar hörnen på bakgrunden*/
 }
+#headercontainer {
+    position: relative;
+    text-align: center;
+}
 .header {
     background-color: #A1CDA8;
     display:flex;
@@ -23,16 +27,25 @@ body {
     width: 9em;
     height:auto;
 }
-a {
-    padding: 2rem;
-}
 header a {
     font-family:Arial, Helvetica, sans-serif;
     color:black;
     text-decoration:none;
     font-size: 2rem;
-    padding: 1rem;
     font-weight: bolder;
+    text-align: center;
+    
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    box-shadow: 0 0 15px 4px rgba(255, 255, 255, 0.527) inset;
+    padding: 1px;
+    opacity: 90%;
+    border-radius: 15px;
 }
 header a:hover {
     color:hsla(210, 39%, 11%, 0.637);
@@ -56,6 +69,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center; /* sätter 'lådorna' som alla bilar är i centrerat*/
 }
 .bilar{
     margin: 10px;
@@ -65,5 +79,5 @@ img {
     background-color: #A1CDA8;
     position: center;
     color: black;
-
+    text-align: center;
 }
