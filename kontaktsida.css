@@ -112,9 +112,10 @@ a:active {
     z-index: 4;
 }
 
-.browntext {
+h1 {
     color:saddlebrown;
     text-shadow: 1px 1px 1px burlywood;
+    width: auto;
 }
 
 .blacktext {
