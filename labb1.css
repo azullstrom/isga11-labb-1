@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     list-style: none;
+    font-family: 'Rubik', sans-serif;
 }
 body {
     background-color:#ffffff;
@@ -38,7 +39,8 @@ body {
     vertical-align: middle;
     position: absolute;
     left: 2em;
-    width: 9em;
+    width: 20%;
+    max-width: 10em;
     height:auto;
 }
 /* Body styling */
@@ -52,14 +54,49 @@ body {
     color:#000000;
     width:80%;
 }
-.post {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.post { /*Fyller post-container med poster*/
+   
     border: 2px solid #ffffff;
     border-radius:5px;
     padding: 1rem;
     margin: 2rem;
-    display:flexbox;
 }
+.carpost { /*Fyller post-container med carposter*/
+    
+    border: 2px solid #000000;
+    border-radius:5px;
+    padding: 1rem;
+    margin: 2rem;
+    align-items: center;
+    display: flex;
+}
+.carImage {
+    width: 40%;
+    height: auto;
+}
+ /* Fyller carpost */
+.carInformation {
+    width: 60%;
+    padding: 1em;
+    display: flex;
+    align-items: flex-start;
+}
+.carInformation h1 {
+    width: 10%;
+    text-align: center;
+}
+/* ------------------------ */
+/* Fyller carInformation */
+.carInformation table { 
+    width: 30%;
+    text-align: left;
+    padding: 2em;
+    margin: 0;
+}
+.carDescription{
+    width: 50%;
+}
+/*---------------------------*/
 .post h1, h2, h3, h4, h5, h6 {
     color:rgb(5, 4, 63);
 }
