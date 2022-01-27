@@ -1,54 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="se">
     <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="labb1.css">
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="labb1.css">
+            <title>Startsida</title>
+            <!-- FONT FRÅN https://fonts.google.com/specimen/Rubik-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     </head>
-    <header>
-        <div id="menuspace">
+    <body>
+        <header>
             <div class="center">
-                <a href="labb1.html" id="menuItem">Startsida</a>
-                <a href="objektsida.html" id="menuItem">Objektsida</a>
-                <a href="kontaktsida.html" id="menuItem">Kontaktsida</a>
+                <img src="duettensauto.png" id="headerimage" alt="Duettens-Auto-Logo">
+                <nav id="menuBar">
+                    <table>
+                        <tr>
+                            <td><b><a href="labb1.html" class="menuItem">Hem</a></b></li>
+                            <td><b><a href="objektsida.html" class="menuItem">Objekt</a></b></li>
+                            <td><b><a href="kontaktsida.html" class="menuItem">Kontakt</a></b></li>
+                        </tr>
+                    </table>
+                </nav>
             </div>
-        </div>
-    </header>
-<body>
-    <aside style="float: right; padding-right: 75px; border: solid 1px black;"><!-- Ska ligga till höger-->
-        <div style="border: solid 1px black ;">
-            <h3>Rubrik</h3>
-            <img src="reklam1.png" href="objektsida">
-        </div>
-        <div>
-            <h3>Rubrik</h3>
-            <img src="reklam1.png" href="objektsida">
-        </div>
-    </aside>
-    <div>
-        <table>
-            <thead>
-                <th>Till Salu</th>
-                <th>Slutpriser</th>
-            </thead>
-        </table>
-    </div>
-    <div id="Karta">
-        <div class="mapouter"> <!-- Hämtat från https://google-map-generator.com/ -->
-            <div class="gmap_canvas">
-                <iframe width="600" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Duettgatan&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                <a href="https://123movies-to.org">123movies</a><br>
-                <style>.mapouter{position:relative;text-align:right;height:500px;width:800px;}</style>
-                <a href="https://www.embedgooglemap.net">google maps web pages</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:800px;}
-                </style>
+        </header>
+        <main>
+            <div class="container">
+                <div class="post-container">
+                    <article class="post">
+                        <h1>Välkommen till Duettens Automobil!</h1>
+                        <p>Vi <b>köper</b>, <b>säljer</b> och <b>byter</b> bilar!</p>
+                    </article>
+                    <article class="post">
+
+                    </article>
+                    <article class="post">
+                        <h3>Vår historia...</h3>
+                        <p>... började 2021 med en baktanke om att bemöta behovet av leasingbilar till studenter på Karlstads Universitet.
+                            Våra grundare grubblade länge på affärsidén och bestämde sig sedan för att påbörja en marknadsundersökning där olika studenter fick svara på en enkel enkät om sina behov av att ha en bil.
+                            Svaren från enkäten kom tillbaka. Utifrån enkäten kunde våra grundare konstatera att endast 1 av 10 studenter som bor i området Campus och Kronoparken hade egen bil. Cirka hälften svarade att de hade behov av en bil minst 2 - 3 gånger i veckan.
+                            Utifrån dessa svar konstaterade våra grundare att det fanns en marknad för billeasing till studenter. Resten är som man brukar säga, historia...
+                        </p>
+                    </article>
+                    <div class="post">
+                        <h3>Hitta till oss!</h3>
+                        <p>Vi finns på Duettgatan i området Campus i Karlstad.</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.2799481006148!2d13.570288551717859!3d59.41172501136547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465cb134c57cda23%3A0xe31fc453ba707007!2sDuettgatan%2C%20656%2036%20Karlstad!5e0!3m2!1ssv!2sse!4v1643200711323!5m2!1ssv!2sse" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <article class="post">
+                        <h1> En h1 header</h1>
+                        <h2> En h2 header</h2>
+                        <h3> En h3 header</h3>
+                        <h4> En h4 header</h4>
+                        <h5> En h5 header</h5>
+                        <h6> En h6 header</h6>
+                    </article>
+                </div>
+                    <aside class="sidebar">
+                        <a href="http://kau.se">
+                            <img src="Merc.png" class="sidebarImage" alt="reklambild">
+                        </a>
+                        <a href="http://kau.se">
+                            <img src="SAAB.png" class="sidebarImage" alt="reklambild">
+                        </a>
+                    </aside>
             </div>
-        </div> <!-- kartelement slut-->
-    </div>
-    <div>
-        <table>
-            <thead>
-                <th>Sortering</th>
-            </thead>
-        </table>
-    </div>
-</body>
+        </main>
+    </body>
 </html>
