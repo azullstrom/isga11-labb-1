@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="se">
     <head>
             <meta charset="UTF-8">
             <link rel="stylesheet" href="labb1.css">
             <title>Startsida</title>
+            <!-- FONT FRÅN https://fonts.google.com/specimen/Rubik-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <div class="center">
-                <img src="duettensauto.png" id="headerimage">
+                <img src="duettensauto.png" id="headerimage" alt="Duettens-Auto-Logo">
                 <nav id="menuBar">
-                    <a href="labb1.html" class="menuItem">HEM</a> 
-                    <a href="objektsida.html" class="menuItem">OBJEKT</a>
-                    <a href="kontaktsida.html" class="menuItem">KONTAKT</a>
+                    <table>
+                        <tr>
+                            <td><b><a href="labb1.html" class="menuItem">Hem</a></b></li>
+                            <td><b><a href="objektsida.html" class="menuItem">Objekt</a></b></li>
+                            <td><b><a href="kontaktsida.html" class="menuItem">Kontakt</a></b></li>
+                        </tr>
+                    </table>
                 </nav>
             </div>
         </header>
@@ -24,8 +32,15 @@
                         <p>Vi <b>köper</b>, <b>säljer</b> och <b>byter</b> bilar!</p>
                     </article>
                     <article class="post">
-                        <h3>En h3 header</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatum a porro fuga magnam accusantium omnis necessitatibus, est natus ad illo magni! Quos deleniti delectus iusto architecto libero earum excepturi.</p>
+                        
+                    </article>
+                    <article class="post">
+                        <h3>Vår historia...</h3>
+                        <p>... började 2021 med en baktanke om att bemöta behovet av leasingbilar till studenter på Karlstads Universitet.
+                            Våra grundare grubblade länge på affärsidén och bestämde sig sedan för att påbörja en marknadsundersökning där olika studenter fick svara på en enkel enkät om sina behov av att ha en bil.
+                            Svaren från enkäten kom tillbaka. Utifrån enkäten kunde våra grundare konstatera att endast 1 av 10 studenter som bor i området Campus och Kronoparken hade egen bil. Cirka hälften svarade att de hade behov av en bil minst 2 - 3 gånger i veckan.
+                            Utifrån dessa svar konstaterade våra grundare att det fanns en marknad för billeasing till studenter. Resten är som man brukar säga, historia...
+                        </p>
                     </article>
                     <div class="post">
                         <h3>Hitta till oss!</h3>
@@ -42,8 +57,12 @@
                     </article>
                 </div>
                     <aside class="sidebar">
-                        <img src="reklam1.png" class="sidebarImage" href="http://kau.se">
-                        <img src="reklam1.png" class="sidebarImage" href="http://kau.se">
+                        <a href="http://kau.se">
+                            <img src="Merc.png" class="sidebarImage" alt="reklambild">
+                        </a>
+                        <a href="http://kau.se">
+                            <img src="SAAB.png" class="sidebarImage" alt="reklambild">
+                        </a>
                     </aside>
             </div>
         </main>
