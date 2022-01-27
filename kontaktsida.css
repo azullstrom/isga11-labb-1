@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/*Logo*/
 #logo {
     position: fixed;
     width: 12%;
@@ -12,6 +13,7 @@
     filter: sepia();
 }
 
+/*Bilder*/
 #leftpic {
     float: left;
     z-index: 1;
@@ -49,6 +51,7 @@
     height: 200px;
 }
 
+/*Innehåll*/
 #name, #email, #tele, #message {
     background-color: saddlebrown;
     width: 50%;
@@ -64,11 +67,17 @@
     resize: none;
 }
 
-body, html {
-    margin: 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h1 {
+    color:saddlebrown;
+    text-shadow: 1px 1px 1px burlywood;
+    width: auto;
 }
 
+.blacktext {
+    color:black;
+}
+
+/*Navigerings-meny*/
 a {
     text-decoration: none;
     border-radius: 10px;
@@ -112,14 +121,10 @@ a:active {
     z-index: 4;
 }
 
-h1 {
-    color:saddlebrown;
-    text-shadow: 1px 1px 1px burlywood;
-    width: auto;
-}
-
-.blacktext {
-    color:black;
+/*Modifiering*/
+body, html {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
@@ -143,7 +148,9 @@ footer {
     width: 100%;
     height: 100%;
     padding-top: 1px;
-    background: saddlebrown;
+    padding-bottom: auto;
+    background: rgb(27, 27, 27);
+    filter: sepia();
 }
 
 
