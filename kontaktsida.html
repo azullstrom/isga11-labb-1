@@ -5,58 +5,63 @@
         <link rel="stylesheet" href="kontaktsida.css">
         <title>Kontakta oss</title>
     </head>
+
     <body>
-        <div id="logo">
-            <h2>Campus Bilhandel</h2>
-        </div>
+        <img id="logo" src="duettensautowhite.png" alt="logo">
         <div class="canvas">
             <div class="container">
-                <div class="navbar">
-                    <ul>
-                        <li><a href="labb1.html">HEM</a></li>
-                        <li><a href="objektsida.html">VÅRA BILAR</a></li>
-                        <li><a href="kontaktsida.html">KONTAKTA OSS</a></li>
-                    </ul>
-                </div>
-                <div class="image-blurred-edge-left"></div>
-                <div class="image-blurred-edge-right"></div>
-                <img id="leftpic" src="https://images.unsplash.com/photo-1625428883708-d8e14ab407ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Audi1" style="width:30%">
-                <img id="midpic" src="https://images.unsplash.com/photo-1569250814530-1e923fd61bc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt ="Road1" style="width:40%">
-                <img id="rightpic" src="https://images.unsplash.com/photo-1541348263662-e068662d82af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Audi2" style="width:30%">
-                <img id="botleftpic" src="https://images.unsplash.com/photo-1610475426528-f5565ecca5bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3019&q=80" alt="Audilogo1" style="width:30%">
-                <img id="botrightpic" src="https://images.unsplash.com/photo-1610475426528-f5565ecca5bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3019&q=80" alt="Audilogo2" style="width:30%">
-                <div class="centered">
-                    <h1 class="browntext">KONTAKTA OSS</h1>
-                    <p>
-                        Fyll i formuläret nedan för att bli kontaktad av våra bilexperter.
-                    </p> 
-                    <form class="blacktext">
-                        <div>
-                            <label for="name">DITT NAMN *</label><br>
-                            <input type="text" id="name" required>
-                        </div>
-                        <div>
-                            <label for="email">E-POST *</label><br>
-                            <input type="email" id="email" required>
-                        </div>
-                        <div>
-                            <label for="tele">MOBILNUMMER</label><br>
-                            <input type="text" id="tele">
-                        </div>
-                        <div>
-                            <label for="message">MEDDELANDE *</label><br>
-                            <textarea rows="15" id="message" required></textarea>
-                        </div>
-                        <div>
-                            <button type="submit" id="send"><b>Skicka formulär</b></button>
-                        </div>
-                    </form>
-                        <div>
-                            <p>Du kan även nå oss på detta nummer: 000-0000000</p>
-                            <p>Öppettider: 08:00-17:00</p><br><br><br><br>
-                        </div>
-                </div>
+                <header>
+                    <nav class="navbar">
+                        <a href="labb1.html">HEM</a>
+                        <a href="objektsida.html">BILAR</a>
+                        <a href="kontaktsida.html">KONTAKT</a>  
+                    </nav>
+                </header>
+
+                <img id="leftpic" src="https://images.unsplash.com/photo-1625428883708-d8e14ab407ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Audi1">
+                <img id="midpic" src="https://images.unsplash.com/photo-1569250814530-1e923fd61bc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt ="Road1">
+                <img id="rightpic" src="https://images.unsplash.com/photo-1541348263662-e068662d82af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Audi2">
+                <img id="botleftpic" src="https://images.unsplash.com/photo-1610475426528-f5565ecca5bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3019&q=80" alt="Audilogo1">
+                <img id="botrightpic" src="https://images.unsplash.com/photo-1610475426528-f5565ecca5bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3019&q=80" alt="Audilogo2">
+
+                <main>
+                    <div class="centered">
+                        <h1>KONTAKTA OSS</h1>
+                        <p>
+                            Fyll i formuläret nedan för att bli kontaktad av våra bilexperter.
+                        </p> 
+                        <form class="blacktext">
+                            <div>
+                                <label for="name">DITT NAMN *</label><br>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div>
+                                <label for="email">E-POST *</label><br>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div>
+                                <label for="tele">MOBILNUMMER</label><br>
+                                <input type="text" id="tele">
+                            </div>
+                            <div>
+                                <label for="message">MEDDELANDE *</label><br>
+                                <textarea rows="15" id="message" required></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" id="send"><b>Skicka formulär</b></button>
+                            </div>
+                        </form>
+                            <div>
+                                <p>Du kan även nå oss på detta nummer: 000-0000000</p>
+                                <p>Öppettider: 08:00-17:00</p><br><br><br><br>
+                            </div>
+                    </div>
+                </main>
             </div>
         </div>
     </body>
+    
+    <footer>
+        <p>Duettens Automobil Copyright 2022</p>
+    </footer>
 </html>
