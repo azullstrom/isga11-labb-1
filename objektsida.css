@@ -7,58 +7,46 @@
 }
 body {
     font-family:Arial, Helvetica, sans-serif;
-    background-color:#627264;
+    background-color:#ffffff;
     border-radius: 10px; /*rundar hörnen på bakgrunden*/
 }
-#headercontainer {
+.center {
     position: relative;
     text-align: center;
 }
-.header {
-    background-color: #A1CDA8;
+#menuBar {
+    background-color: #ffffff;
     display:flex;
     justify-content: center;
-    align-items: center;
+    padding: 2rem;
+    border-bottom: double 1em rgb(5, 4, 63);
+    font-size: 150%;
+
 }
-#headerimg {
+#headerimage {
     vertical-align: middle;
     position: absolute;
     left: 2em;
-    width: 9em;
+    width: 200px;
+    max-width: 100%;
     height:auto;
 }
-header a {
-    font-family:Arial, Helvetica, sans-serif;
-    color:black;
+#menuBar a {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(5, 4, 63);
     text-decoration:none;
-    font-size: 2rem;
-    font-weight: bolder;
-    text-align: center;
-    
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 18px;
-    margin-top: 18px;
-    margin-left: 20px;
-    width: 150px;
-    height: 40px;
-    box-shadow: 0 0 15px 4px rgba(255, 255, 255, 0.527) inset;
-    padding: 1px;
-    opacity: 90%;
-    border-radius: 15px;
-}
-header a:hover {
-    color:hsla(210, 39%, 11%, 0.637);
+    font-size: 1.2em;
+    padding: 2rem;
 }
 h1 {
     text-align: center;
     padding: 2rem;
     border-radius: 10px;
-    color: black;
+    color: white;
 }
 h2 {
     font-size:20px;
-    color: black;
+    color: white;
 }
 img {
     border-radius: 20px;
@@ -69,15 +57,16 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center; /* sätter 'lådorna' som alla bilar är i centrerat*/
+    justify-content: center; /* sätter 'lådorna' som alla bilar är i centrerat*/ 
+    border-top: double 1em rgb(5, 4, 63);
+ 
 }
 .bilar{
-    margin: 10px;
-    padding: 5px;
-    border-radius: 10px;
+    margin: 5px;
+    border-radius: 10px; 
     width: 45%;
-    background-color: #A1CDA8;
+    background-color: rgb(5, 4, 63);
     position: center;
-    color: black;
+    color: white;
     text-align: center;
 }
